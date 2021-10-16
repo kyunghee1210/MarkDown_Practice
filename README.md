@@ -104,15 +104,15 @@ But let's throw in a tag.
 - [ ] Contact the media
 
 # Subscript / Superscript
-- 19^th^
-- H~2~O
+19^th^
+H~2~O
 
 # Footnotes
 footnote 1 link[^first]
 footnote 2 link[^second]
 
 [^first]: Footnote **can have markup language**.
-[^second] : Footnote text.
+[^second]: Footnote text.
 
 # Definition List
 Term 1
@@ -120,19 +120,19 @@ Term 1
 with lazy continuation.
 Term 2
 :   Definition 2
-        { some code, port ~ }
+        {some code, port ~}
 
 # Abbreviations
 This is HTML abbreviation example.
-*[HTML] : Hyper Text Markup.
+*[HTML]: Hyper Text Markup.
 
 # Custom Containers
-::: warnig
-* hare be dragons *
-:::
+: : : warnig
+*hare be dragons*
+: : :
 
 # Imogie
-:crying: :smile: :sad: :happy:
+:cry: :smile: :sad: :happy:
 8-) :-) :-(
 
 
