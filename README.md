@@ -37,7 +37,69 @@ This is my `first` file!!
 
 ---
 
-## Link
+# Link
 [Google](http://www.google.com)
 
+# Image
 ![cloud image](cloud.jpg)
+
+# Table
+| Syntax | Description | Test |
+| ------ | ------ | ----- |
+| Header | Title | title |
+| Paragraph | Text | title |
+| Apple | Banana | title |
+
+# Fenced Code Block
+```c
+#include <stdio.h>
+int main() {
+    int number1, number2, sum;
+
+    printf("Enter two integers : ");
+    scanf("%d %d", &number1, &number2);
+
+    // caculating sum
+    sum = number1 + number2;
+
+    printf("%d + %d = %d", number1, number2, sum);
+    return 0
+}
+```
+
+```javascript
+function func() {
+    var a = 'AAA'
+    return a;
+}
+```
+
+```css
+.list > li {
+    position: absolute;
+    top: 40px;
+}
+```
+
+```bash
+$ vim ./~zshrc
+```
+
+```python 
+s = "Python syntax highliting"
+print s
+```
+
+```
+No language indicated, so no syntax highlighting.
+But let's throw in a tag.
+```
+
+# Strikethrough
+~~The world is flat.~~
+
+# Task List
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
