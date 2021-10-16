@@ -103,3 +103,36 @@ But let's throw in a tag.
 - [ ] Update the website
 - [ ] Contact the media
 
+# Subscript / Superscript
+- 19^th^
+- H~2~O
+
+# Footnotes
+footnote 1 link[^first]
+footnote 2 link[^second]
+
+[^first]: Footnote **can have markup language**.
+[^second] : Footnote text.
+
+# Definition List
+Term 1
+:   Definition 1
+with lazy continuation.
+Term 2
+:   Definition 2
+        { some code, port ~ }
+
+# Abbreviations
+This is HTML abbreviation example.
+*[HTML] : Hyper Text Markup.
+
+# Custom Containers
+::: warnig
+* hare be dragons *
+:::
+
+# Imogie
+:crying: :smile: :sad: :happy:
+8-) :-) :-(
+
+
